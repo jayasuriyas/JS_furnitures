@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <!--*****BOOTSTRAP LINK*****-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <!--*****FONTAWESOME LINK*****-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--*****PORTFOLIO LINK*****-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/theme.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="navbar">
+                    <!--*****LOGO*****-->
+                    <div class="logo">
+                        <a href="#">
+                            <h1><span>JS</span>furnitures</h1>
+                        </a>
+                    </div>
+                    <!--*****CHECKBOX*****-->
+                    <input type="checkbox" id="click">
+                    <label for="click" class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <!--*****NAVIGATION MENU*****-->
+                    <ul class="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Element</a></li>
+                    </ul>
+                    <!--**********-->
+                    <ul class="cart">
+                        <li><i class="fas fa-search"></i></li>
+                        <li><i class="fas fa-shopping-bag"></i></li>
+                        <li><i class="far fa-heart"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="landingPage">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contentLand">
+                            <h1>Confortable Sofa with<br>Great Comfort</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dicta ullam quo veritatis tempore sed quibusdam molestiae 
+                                quos suscipit id eius, minus tenetur similique. Excepturi a 
+                                quia tempore neque molestias debitis!
+                            </p>
+                            <div class="shop">
+                                <h5>Shop Now</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./image/lndngSofa.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="category">
+        <div class="container">
+            <div class="title">
+                <h2>Top Category</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="boxCategory">
+                        <img src="./image/Sofa.png" alt="">
+                        <h4>Comfortable Sofa</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="boxCategory">
+                        <img src="./image/Chair.png" alt="">
+                        <h4>Comfortable Chair</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="boxCategory">
+                        <img src="./image/Lighting.png" alt="">
+                        <h4>Amazing Lighting</h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="boxCategory">
+                        <img src="./image/decorative (1).png" alt="">
+                        <h4>House Element</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="container">
+            <div class="title">
+                <h2>Our Products</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="page-section">
+                  <div class="filterable-btn">
+                    <button class="btn active" data-filter="*">All</button>
+                    <button class="btn" data-filter=".chair">Chair</button>
+                    <button class="btn" data-filter=".bed">Bed</button>
+                    <button class="btn" data-filter=".table">Table</button>
+                    <button class="btn" data-filter=".decore">Decore</button>
+                  </div>
+          
+                  <div class="grid mt-3">
+                    <div class="grid-item chair">
+                      <div class="portfolio">
+                        <a href="./image/Product/1.png" data-fancybox="portfolio">
+                          <img src="./image/Product/1.png" alt="">
+                        </a>
+                        <div class="viewDetails">
+                            <h6>PRODUCT 1 : <span> ₹10000/-</span></h6>
+                            <img src="./image/5 Star Rating PNG - 640x214.png" alt="">
+                          </div>
+                      </div>
+                    </div>
+                    <div class="grid-item mobile">
+                      <div class="portfolio">
+                        <a href="./image/Product/2.png" data-fancybox="portfolio">
+                            <img src="./image/Product/2.png" alt="">
+                          </a>
+                          <div class="viewDetails">
+                              <h6>PRODUCT 1 : <span> ₹10000/-</span></h6>
+                              <img src="./image/5 Star Rating PNG - 640x214.png" alt="">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div> <!-- .grid -->
+              </div> <!-- .page-section -->
+        </div>
+    </div>
+
+    <div class="discount">
+        <div class="container">
+            <div class="discountBox">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="discountContent">
+                            <h2>DISCOUNTED</h2>
+                            <p>Wonder Sofa</p>
+                            <h5><span>26</span>%<br>OFF</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                            <img src="./image/sofa last.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="mainFooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                                <a href="#" class="logo">
+                                    <h1><span>JS</span>furnitures</h1>
+                                </a>
+                                <br>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                    Culpa officia quas consequuntur commodi fuga aliquid 
+                                    expedita aperiam accusamus. Maiores voluptatum illum 
+                                    saepe nobis dolore? Dolorum reprehenderit asperiores 
+                                    error quod possimus.
+                                </p>
+                                <div class="footerSocial">
+                                    <i class="fab fa-facebook"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                        </div>
+                        <div class="col-md-3 people">
+                            <ul>
+                                <h5>People</h5>
+                                <li>My Account</li>
+                                <li>Check Out</li>
+                                <li>Help</li>
+                                <li>Support</li>
+                                <li>FAQ</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <h5>Contact Us</h5>
+                                <div class="row">
+                                    <div class="col-md-2 cntctUs"><i class="fas fa-map-marker-alt"></i></div>
+                                    <div class="col-md-10 contactUs">010 Address Place <br>State, Country 0987654</div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-2 cntctUs"><i class="fas fa-phone-alt"></i></div>
+                                    <div class="col-md-10 contactUs">9876543210<br>9876543210</div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-2 cntctUs"><i class="far fa-envelope"></i></div>
+                                    <div class="col-md-10 contactUs">contact@jsfurniture.com</div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul>
+                                <h5>Join to Newsletter</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, adipisci ditum enim neque!</p>
+                                <div class="row newsLetter">
+                                    <div class="col-md-10 newsLetterMail"><h6>Your Mail....</h6></div>
+                                    <div class="col-md-2 newsLetterI"><i class="fas fa-chevron-right"></i></div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footerBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    By <a href="https://jayasuriyas.in/"><span>Jayasuriya S</span></a> © 2021 All rights reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</body>
+</html>
